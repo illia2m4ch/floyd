@@ -1,8 +1,8 @@
 public class FloydAlgorithm {
 
-    private int size;
+    private final int size;
 
-    private int[][] values;
+    private final int[][] values;
     private char[][] vertices;
 
     public FloydAlgorithm(int[][] graphValues, char... names) {
